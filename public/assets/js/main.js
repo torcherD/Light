@@ -235,19 +235,9 @@ if (adsOn === "false") {
   console.log("User said no ads :( okkkk");
 } else {
   const gascript = document.createElement("script");
-  gascript.setAttribute("src", "//pl24644079.cpmrevenuegate.com/94/47/65/9447650c01819bee0a6ff77c36c7ddd9.js");
+  gascript.setAttribute("src", "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3747175608041884");
   document.head.append(gascript);
   console.log("Added Advert Script");
-}
-
-if (gAdsOn === "false") {
-  console.log("User said no google ads :( okkkk");
-} else {
-  const googleascript = document.createElement("script");
-  googleascript.setAttribute("src", "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2804638430420139");
-  googleascript.setAttribute("crossorigin", "anonymous");
-  document.head.append(googleascript);
-  console.log("Added Goggle Adsense Script");
 }
 
 document.addEventListener("DOMContentLoaded", function () {

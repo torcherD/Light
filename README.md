@@ -66,7 +66,6 @@ Thank you to the following people for contributing to Light.
 ## Tech Stack
 - Ultraviolet V2
 - TompHTTP Bare Server
-- Rammerhead
 - Eruda Mobile Inspect
 
 ## Discord 
